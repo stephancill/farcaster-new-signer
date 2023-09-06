@@ -18,7 +18,7 @@ const Title = styled.span`
 export function Nav() {
   return (
     <Wrapper>
-      <Title>FID Manager</Title>
+      <Title>Add Signer</Title>
       <ConnectButton size="small" />
     </Wrapper>
   )

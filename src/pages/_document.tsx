@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-          <meta property="twitter:creator" content="@gregskril" />
+          <meta property="twitter:creator" content="@stephancill" />
           <meta property="twitter:card" content="summary_large_image" />
         </Head>
         <body>

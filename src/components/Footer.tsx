@@ -39,11 +39,11 @@ export function Footer() {
   return (
     <Wrapper>
       <Links>
-        <Link href="https://warpcast.com/greg" target="_blank">
+        <Link href="https://warpcast.com/stephancill" target="_blank">
           <FarcasterIcon />
         </Link>
         <Link
-          href="https://github.com/gskril/farcaster-recovery"
+          href="https://github.com/stephancill/farcaster-new-signer"
           target="_blank"
         >
           <GithubIcon />
