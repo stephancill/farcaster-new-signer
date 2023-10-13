@@ -53,7 +53,7 @@ const ProfileMobile = styled(Profile)`
 
 export function ConnectButton({ size }: { size?: 'small' }) {
   const { address } = useAccount()
-  const { data: ensName } = useEnsName({ address, chainId: 1 })
+  const { data: ensName } = useEnsName({ address, chainId: 10 })
   const { data: ensAvatar } = useEnsAvatar({ name: ensName })
   const { openConnectModal } = useConnectModal()
   const { openAccountModal } = useAccountModal()

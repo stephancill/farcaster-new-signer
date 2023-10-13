@@ -1,3 +1,5 @@
+import { Button } from '@ensdomains/thorin'
+import Link from 'next/link'
 import styled from 'styled-components'
 
 import { ConnectButton } from './ConnectButton'
@@ -15,10 +17,19 @@ const Title = styled.span`
   font-weight: 800;
 `
 
-export function Nav() {
+export function Nav({ title }: { title: string }) {
   return (
     <Wrapper>
-      <Title>Add Signer</Title>
+      <Title>{title}</Title>
+      <div className="flex">
+        <Link href="/signer">
+          <button>Add signer</button>
+        </Link>
+        <Link href="/transfer">
+          <button>Transfer FID</button>
+        </Link>
+      </div>
+
       <ConnectButton size="small" />
     </Wrapper>
   )
